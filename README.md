@@ -71,10 +71,10 @@ terdapat dua cara untuk menampilkan elemen array, yakni dengan mencetak elemen p
 	    $hewan = ["Singa", "Harimau", "Buaya", "Anjing"];
 
 	    // Menampilkan Elemen Array Hewan 
-	    echo $hewan[0] . <br> // menampilkan Singa
-	    echo $hewan[1] . <br> // menampilkan Harimau
-	    echo $hewan[2] . <br> // menampilkan Buaya
-	    echo $hewan[3] . <br> // menampilkan Anjing
+	    echo $hewan[0] . "<br>" // menampilkan Singa
+	    echo $hewan[1] . "<br>" // menampilkan Harimau
+	    echo $hewan[2] . "<br>" // menampilkan Buaya
+	    echo $hewan[3] . "<br>" // menampilkan Anjing
 	?>
 ```
 
@@ -88,14 +88,14 @@ Penampilan isi array menggunakan perulangan efektif digunakan ketika array terse
 
 	    // perulangan foreach 
 	    foreach($hewan as $h) {
-		echo $h . <br>;
+		echo $h . "<br>";
 	    }
 
 	    echo "<br>";
 
 	    // perulangan for 
 	    for($i = 0; $i < count($hewan); $i++) {
-		echo $hewan[$i] . <br>;
+		echo $hewan[$i] . "<br>";
 	    }
 
 	    echo "<br>";
@@ -103,7 +103,7 @@ Penampilan isi array menggunakan perulangan efektif digunakan ketika array terse
 	    // perulangan while
 	    $i = 0; 
 	    while($i < count($hewan)) {
-		echo $h . <br>;
+		echo $h . "<br>";
 		$i++;
 	    }
 
@@ -112,7 +112,7 @@ Penampilan isi array menggunakan perulangan efektif digunakan ketika array terse
 	    // perulangan do while 
 	    $i = 0; 
 	     do {
-		echo $h . <br>;
+		echo $h . "<br>";
 		$i++;
 	    } while($i < count($hewan))
 
@@ -129,7 +129,7 @@ fungsi `count()` digunakan untuk menghitung panjang dari array.
 
 	    // Menampilkan Array 
 	    foreach($hewan as $h) {
-		echo $h . <br>;
+		echo $h . "<br>";
 	    }
 
 
@@ -143,7 +143,7 @@ fungsi `count()` digunakan untuk menghitung panjang dari array.
 
 	    // Menampilkan Array Setelah Update dan Tambah Elemen
 	    foreach($hewan as $h) {
-		echo $h . <br>;
+		echo $h . "<br>";
 	    }
 	?>
 ```
@@ -162,9 +162,9 @@ dalam bahasa pemograman, array dapat dibedakan menjadi 3 jenis, yakni array nume
 	    $var[2] = 9;
 
 	    // Menampilkan Array 
-	    echo $var[0] . <br> // menampilkan 3
-	    echo $var[1] . <br> // menampilkan 6
-	    echo $var[2] . <br> // menampilkan 9
+	    echo $var[0] . "<br>" // menampilkan 3
+	    echo $var[1] . "<br>" // menampilkan 6
+	    echo $var[2] . "<br>" // menampilkan 9
 
 	?>
 ```
@@ -186,9 +186,9 @@ dalam bahasa pemograman, array dapat dibedakan menjadi 3 jenis, yakni array nume
             );
 
 	    // Menampilkan Array 
-	    echo $komponen['prosessor'] . <br> // menampilkan Intel
-	    echo $komponen['RAM'] . <br> // menampilkan 8 GB
-	    echo $komponen['VGA'] . <br> // menampilkan NVdia Geforce
+	    echo $komponen['prosessor'] . "<br>" // menampilkan Intel
+	    echo $komponen['RAM'] . "<br>" // menampilkan 8 GB
+	    echo $komponen['VGA'] . "<br>" // menampilkan NVdia Geforce
 
 	    echo "<hr>";
 
