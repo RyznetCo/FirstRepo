@@ -24,7 +24,7 @@ Dalam bahasa pemograman PHP terdapat array bawaan dari php, berupa variabel $_PO
 
 ## 3. Penjelasan Detail Array dan Contoh Sintaks
 
-3.1 Mendefinisikan Array di PHP
+### 3.1 Mendefinisikan Array di PHP
 dalam php terdapat dua cara untuk mendefinisikan array, pertama menggunakan fungsi "array(valueindeks)" dan yang kedua menggunakan kurung siku "[valueindeks]". contoh :
 
 ```php
@@ -60,10 +60,10 @@ seperti pada definisi array yang telah dipaparkan diatas, bahwa array pada PHP b
 	?>
 ```
 
-3.2 Menampilkan Elemen Array
+### 3.2 Menampilkan Elemen Array
 terdapat dua cara untuk menampilkan elemen array, yakni dengan mencetak elemen per indeks dan dengan menggunakan perulangan
 
-a. Menampilkan Isi Array dengan Mengakses Indeksnya
+#### a. Menampilkan Isi Array dengan Mengakses Indeksnya
 ```php
 	<?php
 	    
@@ -78,7 +78,7 @@ a. Menampilkan Isi Array dengan Mengakses Indeksnya
 	?>
 ```
 
-b. Menampilkan Isi Array dengan Perulangan
+#### b. Menampilkan Isi Array dengan Perulangan
 Penampilan isi array menggunakan perulangan efektif digunakan ketika array tersebut memiliki banyak elemen. terdapat empat bentuk perulangan, yakni perulangan foreach, for, while, dan do-while
 ```php
 	<?php
@@ -120,7 +120,7 @@ Penampilan isi array menggunakan perulangan efektif digunakan ketika array terse
 ```
 fungsi `count()` digunakan untuk menghitung panjang dari array.
 
-3.3 Menambahkan / mengupdate Elemen Pada Array
+### 3.3 Menambahkan / mengupdate Elemen Pada Array
 ```php
 	<?php
 	    
@@ -148,10 +148,10 @@ fungsi `count()` digunakan untuk menghitung panjang dari array.
 	?>
 ```
 
-3.4 Jenis-Jenis Array di PHP
+### 3.4 Jenis-Jenis Array di PHP
 dalam bahasa pemograman, array dapat dibedakan menjadi 3 jenis, yakni array numeric, array assosiatif, dan array multidimensi.
 
-a. Array Numeric
+#### a. Array Numeric
   - Array numeric adalah jenis array dengan indeks numeric yang selalu dimulai dari 0. Contoh Array Numeric :
 ```php
 	<?php
@@ -169,7 +169,7 @@ a. Array Numeric
 	?>
 ```
 
-b. Array Asosiatif
+#### b. Array Asosiatif
   - Komponen Array asosiatif terdiri dari pasangan kunci (key) dan nilai (value).
   - Array asosiatif mengindeks elemen di dalamnya menggunakan nama (String) yang kita tentukan dan bukan menggunakan nomor.
   - Cara membuatnya : menggunakan fungsi array dengan mengeset sepasang atribut sebagai nama elemen dan nilai elemen itu sendiri menggunakan gabungan “=” dan “>”.
@@ -226,7 +226,7 @@ b. Array Asosiatif
 
 ```
 
-c. Array Multidimensi 
+#### c. Array Multidimensi 
   - Array multidimensi merupakan jenis array yang menyimpan satu atau lebih array lagi di dalamnya. Contoh Array Multidimensi :
 ```php
 	<?php
