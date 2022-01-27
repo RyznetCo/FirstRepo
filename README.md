@@ -1,8 +1,11 @@
 # Array
 
 ## 1. Permasalahan
-Pada pemaparan sebelumnya kita telah membahas mengenai variabel. dalam PHP variabel dapat dideklarasikan dengan sintaks "$namavar=value". variabel ini digunakan untuk menyimpan suatu nilai yang akan diproses lagi nantinya. Sekarang bayangkan ketika terdapat banyak sekali nilai yang perlu disimpan, pastinya akan ribet dan tidak efektif bukan jika harus mendeklarasi serta menginisialisasi banyak variabel dengan nama yang berbeda untuk menyimpan nilai-nilainya? Nah, maka dari itu array ini adalah solusinya.
+ Pada pemaparan sebelumnya kita telah membahas mengenai variabel. dalam PHP variabel dapat dideklarasikan dengan sintaks "$namavar=value". variabel ini digunakan untuk menyimpan suatu nilai yang akan diproses lagi nantinya. 
+ 
+ Sekarang bayangkan ketika terdapat banyak sekali nilai yang perlu disimpan, pastinya akan ribet dan tidak efektif bukan jika harus mendeklarasi serta menginisialisasi banyak variabel dengan nama yang berbeda untuk menyimpan nilai-nilainya? Nah, maka dari itu array ini adalah solusinya.
 semisal,
+
 ```php
       <?php
 
@@ -18,14 +21,19 @@ semisal,
        ?>
 ```
 
+<br>
+
 ## 2. Penjelasan Array
-'Array' atau 'larik' dalam bahasa pemograman PHP adalah jenis struktur data yang memungkinkan kita untuk menyimpan beberapa elemen dari tipe data yang sama maupun berbeda di bawah satu variabel tunggal. Yang artinya kita dapat menyimpan banyak nilai atau elemen dalam suatu wadah yang dinamakan "array" dimana nantinya tiap elemennya dapat dipanggil menggunakan indeks array. Penerapan Array pada PHP dalam praktiknya kebanyakan digunakan untuk menampilkan data pada database maupun menyimpan data dari Form yang akan diporses lagi nantinya (Pembahasan lanjut di materi CRUD).
-Dalam bahasa pemograman PHP terdapat array bawaan dari php, berupa variabel $_POST, $_GET, $_FILE, dll. yang akan dibahas lebih lanjut pada materi CRUD. Pada materi kali ini kita akan fokus membahas mengenai dasar-dasar penggunaan array dalam bahasa pemograman PHP. 
+'Array' atau 'larik' dalam bahasa pemograman PHP adalah jenis struktur data yang memungkinkan kita untuk menyimpan beberapa elemen dari __tipe data yang sama maupun berbeda__ di bawah satu variabel tunggal. Yang artinya kita dapat menyimpan banyak nilai atau elemen dalam suatu wadah yang dinamakan "array" dimana nantinya tiap elemennya dapat dipanggil menggunakan indeks array. Penerapan Array pada PHP dalam praktiknya kebanyakan digunakan untuk menampilkan data pada database maupun menyimpan data dari Form yang akan diporses lagi nantinya (Pembahasan lanjut di materi CRUD).
+
+Dalam bahasa pemograman PHP terdapat array bawaan dari php, berupa variabel `$_POST`, `$_GET`, `$_FILE`, dll. yang akan dibahas lebih lanjut pada materi CRUD. Pada materi kali ini kita akan fokus membahas mengenai dasar-dasar penggunaan array dalam bahasa pemograman PHP. 
+
+<br>
 
 ## 3. Penjelasan Detail Array dan Contoh Sintaks
 
 ### 3.1 Mendefinisikan Array di PHP
-dalam php terdapat dua cara untuk mendefinisikan array, pertama menggunakan fungsi "array(valueindeks)" dan yang kedua menggunakan kurung siku "[valueindeks]". contoh :
+dalam php terdapat dua cara untuk mendefinisikan array, pertama menggunakan fungsi `"array(valueindeks)"` dan yang kedua menggunakan kurung siku `"[valueindeks]"`. contoh :
 
 ```php
 	<?php
@@ -59,6 +67,8 @@ seperti pada definisi array yang telah dipaparkan diatas, bahwa array pada PHP b
 
 	?>
 ```
+
+
 
 ### 3.2 Menampilkan Elemen Array
 terdapat dua cara untuk menampilkan elemen array, yakni dengan mencetak elemen per indeks dan dengan menggunakan perulangan
@@ -120,6 +130,8 @@ Penampilan isi array menggunakan perulangan efektif digunakan ketika array terse
 ```
 fungsi `count()` digunakan untuk menghitung panjang dari array.
 
+
+
 ### 3.3 Menambahkan / mengupdate Elemen Pada Array
 ```php
 	<?php
@@ -147,6 +159,8 @@ fungsi `count()` digunakan untuk menghitung panjang dari array.
 	    }
 	?>
 ```
+
+
 
 ### 3.4 Jenis-Jenis Array di PHP
 dalam bahasa pemograman, array dapat dibedakan menjadi 3 jenis, yakni array numeric, array assosiatif, dan array multidimensi.
@@ -265,6 +279,8 @@ dalam bahasa pemograman, array dapat dibedakan menjadi 3 jenis, yakni array nume
 
 	?>
 ```
+
+<br>
 
 ## Studi Kasus Array
 Buatlah Array 2 Dimensi (selain pada contoh), Implementasikan / Tampilkan dalam bentuk Tabel.
